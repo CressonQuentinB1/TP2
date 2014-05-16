@@ -1,13 +1,15 @@
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+	background: #ccc;
 }
 
 #header
 {
-	background: #ccc;
+	background: #9DFF61;
 	padding: 20px;
+	text-align: center;
+	
 }
 
 #header h1 { margin: 0; }
@@ -58,6 +60,8 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	border: 5px solid #9DFF61;
+	
 }
 
 #edito h2
@@ -83,6 +87,7 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	border: 5px solid #9DFF61;
 }
 
 #footer
@@ -92,4 +97,5 @@
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+	text-align: center;
 }
